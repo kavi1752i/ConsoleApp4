@@ -1,12 +1,26 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ConsoleApp4
+
+namespace consoleapp4
 {
-    class Class1
+    class Swapping
     {
+        public void Method1()
+        {
+            int a = 50;
+            int b = 30;
+
+            int c = a;
+            b = a;
+            b = c;
+
+
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+
+        }
+
+
+
     }
 }

@@ -1,12 +1,33 @@
 ﻿using System;
+using ConsoleApp4;
 
-namespace ConsoleApp4
+
+namespace consoleapp4
 {
-    class Program
+    class program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            new a().Method2();
+            new b().Method3();
+
         }
+
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
