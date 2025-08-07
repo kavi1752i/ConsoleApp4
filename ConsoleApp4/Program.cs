@@ -8,9 +8,7 @@ namespace consoleapp4
     {
         static void Main(string[] args)
         {
-            new a().Method2();
-            new b().Method3();
-
+            new Swapping().Method1();
         }
 
     }
