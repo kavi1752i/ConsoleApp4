@@ -8,15 +8,13 @@ namespace consoleapp4
     {
         static void Main(string[] args)
         {
-            new Swapping().Method1();
+            parameter obj = new parameter();
+            parameter objb  = new parameter.Method2(a = 63);
+            // new Swapping().Method1();
         }
 
     }
 }
-
-
-
-
 
 
 
