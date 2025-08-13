@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp4
 {
-    class StudentSummary
+    class EmployeeProcess
     {
-        
+        Employee B;
+
+        public void save(double salary)
+        {
+            Console.WriteLine(salary);
+
+        }
     }
 }

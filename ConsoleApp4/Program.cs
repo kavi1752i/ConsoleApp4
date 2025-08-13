@@ -8,24 +8,19 @@ namespace consoleapp4
     {
         static void Main(string[] args)
         {
+            
+             EmployeeSumary pro = new EmployeeSumary();
+            pro.Data("hardik", 31, 50000);
+
+            // ProductDetails pro = new ProductDetails();
+            // pro.ProductName = "xy";
+            // pro.ProductQuantity = 5;
+            // pro.Price = 140;
 
 
-
-            ProductDetails pro = new ProductDetails();
-            pro.ProductName = "xy";
-            pro.ProductQuantity = 5;
-            pro.Price = 140;
-           
-            
-
-            ProductSummary obj = new ProductSummary();
-            obj.Sample(pro);
-            obj.Sample("xy",5,140);
-       
-            
-            
-            
-         
+            // ProductSummary obj = new ProductSummary();
+            // obj.Sample(pro);
+            //obj.Sample("xy",5,140);
 
 
             // parameter obj = new parameter.
@@ -33,8 +28,8 @@ namespace consoleapp4
             // new Swapping().Metho
 
         }
-            
-        
+
+
 
     }
 }

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp4
 {
-    class employee_details
+    class employeedetails
     {
-        class Employee_Details
+        class EmployeeDetails
         {
             public string name;
             public short employeeid;
@@ -19,16 +19,8 @@ namespace ConsoleApp4
         class EmployeeSummary
         {
 
-
-            public void Method1(Employee_Details a)
+            public void Method(EmployeeDetails a)
             {
-
-                a.name = "dgdg";
-                a.employeeid = 4500;
-
-
-
-
                 Console.WriteLine(a.name);
                 Console.WriteLine(a.salary);
             }
