@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp4
 {
-    class EmployeeDetails
+    class EmployeeP
     {
-        public string EmployeeName;
-        public int Employeeage;
-        public double Employeesalary; 
+        public String name;
+        public string salary;
+        public string score;
+
     }
 }

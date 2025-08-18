@@ -8,10 +8,11 @@ namespace ConsoleApp4
 {
     class EmployeeProcess
     {
-        Employee B;
+        Char gender = 'f';
 
         public void save(double salary)
         {
+            Console.WriteLine(this.gender);
             Console.WriteLine(salary);
 
         }

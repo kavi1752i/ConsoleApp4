@@ -8,9 +8,40 @@ namespace consoleapp4
     {
         static void Main(string[] args)
         {
+
+            ArrayExample obj = new ArrayExample();
+            obj.aa[0] = "palani";
+            obj.aa[1] = "pky";
+
+            string x = obj.ArrayReadlines(obj.aa[1]);
+
+            Console.WriteLine(x);
+
+            ArrayExample var = new ArrayExample();
+            var.aa[1] = "read";
+            Console.WriteLine(var.aa[0]);
+
+
+
+
+           
+
+
+           //new  StudentReport().Readmarks();
+           // new StudentReport().CalculateAverage();
+
+
+            //EmployeeDetail pro = new EmployeeDetail();
+            //pro.Name = "hardik";
+            //pro.Age = 34;
+           // pro.Salary = 34000;
+            //pro.score = 123;
+
+           // EmployeeSumary obj = new EmployeeSumary();
+           // obj.Data(pro);
             
-             EmployeeSumary pro = new EmployeeSumary();
-            pro.Data("hardik", 31, 50000);
+           
+
 
             // ProductDetails pro = new ProductDetails();
             // pro.ProductName = "xy";

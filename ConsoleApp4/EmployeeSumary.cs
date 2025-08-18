@@ -8,17 +8,24 @@ namespace ConsoleApp4
 {
     class EmployeeSumary
     {
-        Employee v
-        public void Data(string name, int age, double salary)
+        
+        public void Data(EmployeeDetail pr)
         {
-            v= new Employee();
-            v.name = "hardik";
+            EmployeeP P;
+            P = new EmployeeP();
+            P.name = pr.Name;
 
-            EmployeeProcess obj = new EmployeeProcess();
 
+
+
+
+            
+
+        }
 
        
-        }
+
+      
 
     }
 }
